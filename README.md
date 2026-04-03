@@ -4,11 +4,11 @@ A repo with 2 different language replications of an AMD `glScissor` interpretati
 This bug has been submitted to AMD via the AMD Developer Community Discord Server,
 and it has been granted the tag `SWDEV-580334` for reference to the internal ticket for this report.
 
-The Java implementation can be found on the [`java`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/java) branch. It includes a Gradle build script with the necessary dependencies,
+The Java implementation can be found on the [`java`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/java) branch. It includes a [`build.gradle.kts`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/blob/java/build.gradle.kts) build script with the necessary dependencies,
 as well as an additional dependency on `RenderDoc4J` for quality of life. The Main class is already configured to inject
-RenderDoc into the program at load time. No other configuration is necessary. 
+RenderDoc into the program at load time. No other configuration is necessary. This configuration will not cause any errors if RenderDoc is not installed.
 
-The C++ implementation can be found on the [`cpp`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/cpp) branch. It includes a [CMakeLists.txt](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/cpp/CMakeLists.txt) file for linking
+The C++ implementation can be found on the [`cpp`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/cpp) branch. It includes a [`CMakeLists.txt`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/cpp/CMakeLists.txt) file for linking
 the necessary dependencies, as well as the necessary binaries and source files. It does not contain any RenderDoc linking code.
 
 ## What is the bug?
