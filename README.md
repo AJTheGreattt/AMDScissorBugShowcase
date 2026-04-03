@@ -8,7 +8,7 @@ The Java implementation can be found on the [`java`](https://github.com/AJTheGre
 as well as an additional dependency on `RenderDoc4J` for quality of life. The Main class is already configured to inject
 RenderDoc into the program at load time. No other configuration is necessary. 
 
-The C++ implementation can be found on the [`cpp`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/cpp) branch. It includes a [CMakeLists.txt](/cpp/CMakeLists.txt) file for linking
+The C++ implementation can be found on the [`cpp`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/cpp) branch. It includes a [CMakeLists.txt](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/cpp/CMakeLists.txt) file for linking
 the necessary dependencies, as well as the necessary binaries and source files. It does not contain any RenderDoc linking code.
 
 ## What is the bug?
