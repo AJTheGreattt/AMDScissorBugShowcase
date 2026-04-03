@@ -7,7 +7,7 @@ in vec2 fTexCoords;
 out vec4 color;
 
 void main() {
-    vec3 textureRGB = 1. - texture(uTexture, fTexCoords).rgb;
+    vec3 texColor = texture(uTexture, fTexCoords).rgb;
 
-    color = vec4(textureRGB, texture(uTexture, fTexCoords).a);
+    color = vec4(1.0 - texColor, texture(uTexture, fTexCoords).a);
 }
