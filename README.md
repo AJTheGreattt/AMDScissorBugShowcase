@@ -2,7 +2,7 @@
 A repo with 2 different language replications of an AMD `glScissor` interpretation bug.
 
 This bug has been submitted to AMD via the AMD Developer Community Discord Server,
-and it has been granted the tag `SWDEV-580334` for reference to the internal ticket for this report.
+and it has been granted the tag `SWDEV-580334` for reference to the internal ticket.
 
 The Java implementation can be found on the [`java`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/tree/java) branch. It includes a [`build.gradle.kts`](https://github.com/AJTheGreattt/AMDScissorBugShowcase/blob/java/build.gradle.kts) build script with the necessary dependencies,
 as well as an additional dependency on `RenderDoc4J` for quality of life. The Main class is already configured to inject
