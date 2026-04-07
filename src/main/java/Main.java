@@ -53,7 +53,7 @@ public class Main {
      * This value is passed to a {@code glfwWindowHint(GLFW_SAMPLES, ...)} call.
      * You can replace {@code 4} with any other value for testing.
      *
-     * <p>When using a value other than {@code 4}, if {@link #USE_AMD_FIX} is set to {@code false},
+     * <p>When using a {@code SAMPLE_COUNT} (strictly) > {@code 0}, if {@link #USE_AMD_FIX} is set to {@code false},
      * the desired effect will not be shown (hence this submission of a bug report).</p>
      */
     private static final int SAMPLE_COUNT = 4;
