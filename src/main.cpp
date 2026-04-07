@@ -39,7 +39,7 @@ static WindowDimensions windowDimensions = { 0 , 0 };
  This value is passed to a glfwWindowHint(GLFW_SAMPLES, ...) call.
  You can replace 4 with any other value for testing.
 
- When using a value other than 4, if USE_AMD_FIX is set to false,
+ When using a SAMPLE_COUNT (strictly) > 0, if USE_AMD_FIX is set to false,
  the desired effect will not be shown (hence this submission of a bug report).
  */
 #define SAMPLE_COUNT 4
